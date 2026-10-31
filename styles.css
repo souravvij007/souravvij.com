@@ -92,6 +92,7 @@ p { margin: 0; }
 .hero__title .hl::after { opacity: .9; mix-blend-mode: normal; }
 .hero__lede { max-width: 640px; color: var(--muted); font-size: 19px; }
 .hero__lede strong { color: var(--text); font-weight: 600; }
+.hero__lede + .hero__lede { margin-top: 14px; }
 .hero__cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 36px; }
 .hero__grid { display: grid; grid-template-columns: minmax(0, 1fr) clamp(280px, 30vw, 380px); gap: clamp(32px, 5vw, 72px); align-items: center; }
 .hero__grid .hero__title { font-size: clamp(44px, 6.2vw, 88px); }
